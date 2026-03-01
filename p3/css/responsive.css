@@ -1,0 +1,175 @@
+/* Large Screen  */
+
+@media only screen and (min-width: 1400px) {
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Laptop Screen  */
+
+@media only screen and (min-width: 1171px) and (max-width: 1400px) {
+.hero-section {
+	height: 800px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+/* desktop :992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+.hero-section {
+	height: 700px;
+}
+.single-feature .content p {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Tablet :768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.hero-section {
+	height: 600px;
+}
+.hero-content h1 {
+  font-size: 30px;
+}
+.demo-content h1 {
+  font-size: 30px;
+}
+.demo-item .image i {
+  height: 50px;
+  line-height: 46px;
+  width: 50px;
+}
+.single-feature .content p {
+  font-size: 14px;
+}
+.footer-section h1 {
+  font-size: 24px;
+}
+
+
+
+
+
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (max-width: 767px) {
+.stick.header-section .buy-btn {
+	line-height: 21px !important;
+}
+.mb-50 {
+	margin-bottom: 30px;
+}
+.hero-section {
+	height: 500px;
+}
+.container {
+    width: 450px;
+}
+.hero-section {
+  padding: 150px 0 100px;
+}
+.hero-content h1 {
+  font-size: 24px;
+}
+.hero-content h1 strong {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.hero-content a {
+  margin-top: 20px;
+}
+.demo-item-content h4 {
+	font-size: 26px;
+	line-height: 34px;
+}
+.demo-item-content a {
+	margin-top: 0;
+    font-size: 14px;
+}
+.demo-content h1 {
+  font-size: 30px;
+}
+.section-title h1 {
+  font-size: 30px;
+}
+.footer-section .buy-btn {
+  float: left;
+}
+
+
+
+
+
+
+}
+
+
+/* small mobile :320px. */
+
+@media only screen and (max-width: 479px) {
+.container {
+    width: 300px;
+}
+.logo a {
+  width: 116px;
+}
+.buy-btn {
+  font-size: 11px;
+  height: 34px;
+  padding: 3px 25px;
+    margin-top: 0;
+    line-height: 26px;
+}
+
+.hero-section {
+  padding: 150px 0 100px;
+}
+.hero-content h1 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.hero-content h1 strong {
+  font-size: 30px;
+}
+.hero-content p {
+  font-size: 13px;
+}
+.hero-content a {
+  margin-top: 20px;
+}
+    
+    
+}
